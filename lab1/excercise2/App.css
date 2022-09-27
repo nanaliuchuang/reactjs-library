@@ -1,0 +1,17 @@
+.text{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px auto;
+  width: 800px;
+}
+.text h1{
+  color: #175d32;
+  font-size: 3em;
+}
+.text h6{
+  font-size: 2em;
+  color: rgb(199, 53, 53);
+}

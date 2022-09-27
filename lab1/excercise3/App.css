@@ -1,0 +1,32 @@
+*{
+  padding: 5px;
+  margin: 5px;
+  box-sizing: border-box;
+  font-family: cosolas;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+  background: #1f528c;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 100;
+  width: 100px;
+}
+.main{
+  background: #a2bbd7;
+  font-size: 1.2em;
+  font-weight: 100;
+  width: 100px;
+  text-align: center;
+}
+input{
+  width: 100%;
+  background: none;
+  color: #000;
+  font-size: 1.2em;
+  border: none;
+  outline: none;
+}
