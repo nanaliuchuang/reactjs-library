@@ -1,0 +1,39 @@
+.convert__title{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    color: #ff5e8e;
+}
+.content{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    width: 180px;
+    background: #cdb3bb;
+    border: none;
+    color: #000;
+}
+select{
+    height: 35px;
+    margin: 0 10px;
+}
+label{
+    margin: 0 10px;
+}
+.button{
+    border: none;
+    width: 100px;
+    color: #000;
+    background: #cdb3bb;
+}
+.result{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+.a{
+    margin: 20px;
+}
