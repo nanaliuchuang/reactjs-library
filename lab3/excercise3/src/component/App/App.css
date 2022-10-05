@@ -1,0 +1,76 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: cosolas;
+}
+
+.App {
+  background: linear-gradient(-45deg, #aa3e6f, rgba(71, 191, 131, 0.4),#b47dd1);
+  background-size: 100%;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  background: #c7b5be;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 10px 10px 70px #c7b5be;
+  flex-direction: column;
+}
+.container .randomNum{
+  position: absolute;
+  top: 50px;
+  font-size: 1.5em;
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  opacity: 0.8;
+  background: #fff8fb98;
+  border-radius: 20px;
+}
+.container .value{
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  font-size: 1.5em;
+  color: #aa3e6f;
+}
+input{
+  background: #c1a5b3;
+  border: none;
+  width: 150px;
+  height: 30px;
+  padding-left: 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+button{
+  position: absolute;
+  bottom: 50px;
+  width: 180px;
+  padding: 10px;
+  background: none;
+  font-size: 1.65em;
+  border: 1px solid #aa3e6f;
+  border-radius: 30px;
+  color: rgb(160, 75, 75);
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+button:hover{
+  background: linear-gradient(-45deg, #aa3e6f, rgba(71, 191, 131, 0.4),#b47dd1);
+  background-size: 200%;
+  color: #fff;
+}
