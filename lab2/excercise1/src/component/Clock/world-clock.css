@@ -1,0 +1,44 @@
+section{
+    position: relative;
+    padding: 40px 100px;
+}
+h1{
+    text-align: center;
+    color: rgb(46, 166, 206);
+    font-size: 3em;
+}
+section .rol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    margin: 10px;
+}
+.city{
+    margin-left: 20px;
+    border: 1px solid #fff4;
+    background: #f5f5f5;
+    width: 150px;
+    text-align: center;
+    height: 100px;
+}
+.city:nth-child(2n){
+    background: #f5a8c6;
+}
+h2{
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.city p{
+    font-weight: 600;
+    font-size: 1em;
+}
+.c .city:nth-child(2n){
+    background: #f5f5f5;
+}
+.c .city:nth-child(1){
+    background: #f5a8c6;
+}
+.c .city:nth-child(3){
+    background: #f5a8c6;
+}
