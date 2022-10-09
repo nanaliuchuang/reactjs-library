@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Bad Script', cursive;
+}
+
+.App {
+  background: linear-gradient(-45deg,
+      #aa3e6f,
+      rgba(71, 191, 131, 0.4),
+      #b47dd1);
+  background-size: 100%;
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  display: inline;
+}
+
+button {
+  margin: 3px;
+  cursor: pointer;
+}
+
+.to-do-app {
+  box-sizing: border-box;
+  min-width: 550px;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #252525;
+}
+
+.header {
+  background: linear-gradient(-45deg,
+      #aa3e6f,
+      rgba(71, 191, 131, 0.4),
+      #b47dd1);
+  background-size: 100%;
+  padding: 7px;
+  border-radius: 3px 3px 0 0;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+  font-weight: lighter;
+  font-family: 'Bad Script', cursive;
+}
+
+.create-new {
+  width: 100%;
+  margin: 10px;
+}
+
+input {
+  box-sizing: border-box;
+  width: 75%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+}
+
+
+button {
+  width: 70px;
+  background: #aa3e6f;
+  border: none;
+  padding: 10px;
+  font-size: 18px;
+  margin: 0;
+  border-radius: 10px;
+  font-family: cosolas;
+}
+
+button:hover {
+  background: #ddd;
+}
+
+.items-list {
+  background: linear-gradient(-45deg,
+      #aa3e6f,
+      rgba(71, 191, 131, 0.4),
+      #b47dd1);
+  background-size: 100%;
+  border-radius: 3px;
+}
+
+.to-do-item {
+  padding: 10px 0 10px 0;
+  margin: 1px 0 1px 0;
+  border-top: 1px solid darken(#138796, 20%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  color: white;
+  font-weight: lighter;
+  user-select: none;
+}
+
+.name {
+  margin-left: 10px;
+  font-weight: 600;
+}
+
+input {
+  width: 350px;
+  color: #333;
+  padding: 5px;
+  border: none;
+  border-radius: 1px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.actions {
+  margin-right: 10px;
+}
