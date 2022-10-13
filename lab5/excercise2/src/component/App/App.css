@@ -1,0 +1,33 @@
+.App{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #f000;
+}
+.imgBx{
+	position: relative;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
+}
+.imgBx img{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.a{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+.b{
+	position: relative;
+	width: 500px;
+}
+.imgBx{
+	overflow-y: scroll;
+}
+

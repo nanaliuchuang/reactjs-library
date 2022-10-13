@@ -1,0 +1,27 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: -webkit-repeating-linear-gradient(-45deg,#fff4,#1569c9,#0a2a43,#fff5c5);
+	background-size: 400%;
+	min-height: 100vh;
+}
+.App{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.bi{
+	font-size: 6vw;
+}
+img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	z-index: 0;
+	width: 100%;
+	opacity: 0.4;
+}
