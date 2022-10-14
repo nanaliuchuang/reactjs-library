@@ -1,0 +1,21 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background: -webkit-repeating-linear-gradient(-45deg,#fff4,#1569c9,#0a2a43,#fff5c5);
+	background-size: 400%;
+	min-height: 100vh;
+}
+.App{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+img{
+	max-height: 210px;
+	width: 100%;
+	object-fit: cover;
+}
