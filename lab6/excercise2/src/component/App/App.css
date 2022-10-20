@@ -1,0 +1,24 @@
+.logo{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+    overflow-x: hidden;
+}
+.link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.img{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.hi{
+    min-height: 370px;
+}
+.c{
+    filter: brightness(0.5);
+}

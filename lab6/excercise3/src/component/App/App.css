@@ -1,0 +1,93 @@
+img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.timer{
+    position: relative;
+    text-align: center;
+}
+.timer span{
+    font-size: 10em;
+    border-radius: 50%;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.change{
+    position: absolute;
+    top: 30px;
+    color: #fff;
+}
+.timer .seconds{
+    margin-left: 25px;
+    color: rgb(241, 13, 168);
+}
+.timer .name:nth-child(1){
+    margin-right: 20px;
+}
+.timer .name:nth-child(2){
+    margin-left: 20px;
+}
+.timer .name{
+    font-size: 2.5em;
+    letter-spacing: 3px;
+    font-weight: 300;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.App{
+    position: relative;
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.content{
+    position: relative;
+    display: flex;
+    margin-right: 20px;
+}
+.content h1{
+    position: relative;
+    margin-top: 20px;
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+    background: #e09dc1;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    margin-left: 35px;
+    transition: 0.5s ease-in-out;
+}
+.content h1:hover{
+    background: #c05b91;
+}
+.textBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 1.65em;
+}
+.bi{
+    margin: 0 30px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.bi:hover{
+    color: #c05b91;
+}
